@@ -1,7 +1,7 @@
 # Java-OpenGL-API
 A few abstraction layers for LWJGL OpenGL. From shader light pre-processor to UI handling.
 
-WARNING: If you are too lazy to read everything, I must nevertheless warn you that for some reasons blending still isn't working at all, despite testing several strategies. The test can be found in ```com.xenon.test.Test.java```.
+WARNING: If you are too lazy to read everything, I must nevertheless warn you that for some reason blending still isn't working at all, despite testing several strategies. The test can be found in ```com.xenon.test.Test.java```.
 
 ## Rudimentary layer
 Basic layer all LWJGL developer needs. Is located in ```com.xenon.glfw```.
