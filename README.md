@@ -30,4 +30,6 @@ The final layer provides basic UI abstraction. Is located in ```com.xenon.ui```.
 This layer isn't finished at all, and I don't know when it'll be since I plan to switch to Vulkan soon. Anyway, the major interest of this layer is ```UIContexts.java```.
 
 ## Final words
-This is no graphic engine! The solutions I propose work fairly well (z-testing, ARB bindless on my computer) expect for blending (very sad indeed). Cutout objects can easily be taken care of using manual alpha testing in the fragment shader, but I must have forgotten something with blending. See ya with Vulkan next time. 
+This is no graphic engine! The solutions I propose work fairly well (z-testing, ARB bindless on my computer) expect for blending (very sad indeed). Cutout objects can easily be taken care of using manual alpha testing in the fragment shader, but I must have forgotten something with blending. See ya with Vulkan next time.
+
+EDIT: I added GLFont.java in the main package for those interested. It is an old class from before a massive rewrite I did on WorldRenderer in order to support z testing. Thus, it doesn't work at all but the vertex attribs don't change and the logic is here. The class is based on [Silver Tiger Font class](https://github.com/SilverTiger/lwjgl3-tutorial/blob/master/src/silvertiger/tutorial/lwjgl/text/Font.java), many thanks to him for showing how to use awt for this kind of things.
