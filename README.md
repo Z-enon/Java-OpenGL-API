@@ -4,7 +4,7 @@ A few abstraction layers for LWJGL OpenGL. From shader light pre-processor to UI
 WARNING: If you are too lazy to read everything, I must nevertheless warn you that for some reason blending still isn't working at all, despite testing several strategies. The test can be found in ```com.xenon.test.Test.java```.
 
 ## Rudimentary layer
-Basic layer all LWJGL developer needs. Is located in ```com.xenon.glfw```.
+Basic layer any LWJGL developer needs. Is located in ```com.xenon.glfw```.
 Provides:
 - an abstraction for GLFW context, for automatic shader feeding (no need to manually write "#version 450 core")
 - simple abstraction for GLFW windows and shader programs
